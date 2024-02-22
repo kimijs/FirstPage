@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="style.css" rel="stylesheet" type="text/css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */  /*666*/
+header {
+  background-color: #ff8b8f; 
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */  /*backcolor #ccc*/
+nav {
+  float: left;
+  width: 30%;
+  height: 690px; /* only for demonstration, should be removed */
+  background: #F9E795;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #fff2b6;
+  height: 690px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #ff8185;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  height: 150px; /* add this line */
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<header>
+  <h2>Nice</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="galvena.html">Galvenā</a></li>
+      <li><a href="Paris.html">Paris</a></li>
+      <li><a href="Lyon.html">Lyon</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Nice</h1>
+    <p>Nica ir krāšņa pilsēta Francijas dienvidos, Vidusjūras piekrastē, kas slavena ar savu izcilu klimatu, gleznainajām ainavām un kultūras dzīvi.</p>
+    <p>Ar savu burvīgo Vidusjūras piekrasti, bagāto kultūras dzīvi un skaistajām ainavām, Nica ir viena no visvairāk pievilcīgajām pilsētām Francijā un Eiropā.</p>
+    
+    <dl>
+      <dt>Atrašanās vieta un klimats:</dt>
+      <dd>- Nica atrodas Francijas Rivjērā (Côte d'Azur), lepojoties ar vieglu Vidusjūras klimatu, kas piesaista tūristus gandrīz visu gadu. Siltās vasaras un maigās ziemas padara šo vietu par iecienītu atpūtas un veselības uzlabošanas kūrortu.</dd>
+      <dt>Māksla</dt>
+      <dd>- Nica ir bijusi iedvesmas avots daudziem māksliniekiem, tostarp Henri Matisse un Marc Chagall, kuru darbi ir apskatāmi pilsētas muzejos, piemēram, Matisse muzejā un Chagall muzejā.</dd>
+    <dt>Gastronomija</dt>
+    <dd>Nicas virtuve ir zināma ar savu unikālo Vidusjūras gastronomiju, kas ietver tādus ēdienus kā salade niçoise (Nicas salāti) , ratatouille un socca. Pilsēta piedāvā daudzveidīgu ēdināšanas pieredzi, sākot no tradicionālām franču kafejnīcām līdz augstas klases restorāniem</dd>
+    
+    </dl>
+    
+    
+    <img src="nice1.jpg" alt="Ziema" width="400" height="300">  
+
+</article>
+</section>
+
+<footer>
+  <p>Autors:
+  Kims Franks</p>
+</footer>
+
+</body>
+</html>
