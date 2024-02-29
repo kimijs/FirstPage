@@ -1,2 +1,2 @@
 # PirmaLapa
-https://github.com/kimijs/FirstPage.git
+https://github.com/kimijs/FirstPage/
